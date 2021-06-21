@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin: 20% 20%;
+    color: beige;
+}
+label{
+    color: black;
+    font-size: 20px;
+    font-family: bold;
+}
+input{
+    width: 80%;
+    font-size: 20px;
+
+}
+button{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: black;
+    border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+<div>
+    <form action="/login" method="POST">
+    <label for="name">please enter ur creadentionals</label>
+    <input type="text" name="name" placeholder="enter username">
+
+    <button type="submit">submit</button>
+    </form>
+</div>
+    
+</body>
+</html>

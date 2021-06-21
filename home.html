@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>educademy app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+        margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+    }
+body{
+    background-color:skyblue;
+}
+.headerbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    width: 100%;
+    border-bottom: 2px solid rgb(173, 172, 172);
+
+}
+h2{
+    color:rgb(233, 96, 72);
+    font-size: 35px;
+    margin-top: 0.4rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    padding-left: 3%;
+    text-decoration: none;
+
+}
+h2 a{
+    text-decoration: none;
+    color:rgb(233, 96, 72);
+
+}
+.fa-qrcode{
+    color:rgb(41, 41, 197);
+}
+.fa-bars{
+    font-size:30px;
+    color:rgb(43, 43, 190);
+    margin-top: 7px;
+    margin-right:20px;
+    cursor: pointer;
+}
+.fa-bars:hover{
+    color:red;
+    transform: scale(120%);
+    margin-top: 10px;
+    transition: all 0.7s;
+}
+.navbar{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 190, 190);
+}
+.un-list{
+    list-style: none;
+    padding: 0.5rem 1.2rem;
+
+}
+.un-list li{
+    padding-top: 1rem;
+}
+
+.un-list a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+.un-list li:hover{
+    background-color: rgb(163, 157, 157);
+    width: 100%;
+    padding-left: 0.5rem;
+    transition: all 1.2s ease;
+}
+.un-list li:hover a{
+    color: rgb(65, 94, 156);
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="headerbar">
+<h2><a href="/">educademy</a><i class="fa fa-qrcode"></i></h2>
+<i class="fa fa-bars"></i>
+</div>
+<div class="navbar">
+<ul class="un-list">
+<li><a href="/login">Log in</a></li>
+<li><a href="/about">about us</a></li>
+<li><a href="/programms"> our programms</a></li>
+<li><a href="/contact">contact us</a></li>
+</ul>
+</div>
+
+    
+</body>
+</html>
